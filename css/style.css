@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*     HEADER    */
+
+header {
+  background-color: white;
+  height: 70px;
+  width: 100%;
+  position: relative;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin: 5px;
+  font-family: "source sans pro";
+  padding: 0px 15px;
+}
+
+li {
+    
+  display: inline;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 10;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+/*  MAIN */
+
+h1 {
+    font-family: "playfair diplay";
+  font-size: 160px;
+  padding: 0px 30px;
+}
+.titulos{
+    padding: 0px 30px;
+    height: fit-content;
+    width: fit-content;
+}
+.subtitulo{
+    font-size: 30px;
+    position: relative;
+    left: 0px;
+    text-align: end;
+    font-family: "playfair diplay";
+    letter-spacing: -3px;
+}
+
+.p-presentacion{
+    font-family: "source sans pro";
+    font-size: 18px;
+    padding: 10px 100px;
+}
+
+.conocimientos{
+    width: 100%;
+    padding: 0px 30px;
+
+}
+.titulo-conocimientos{
+    font-size: 40px;
+    font-family: "playfair diplay";
+  padding: 60px 30px 30px 30px;
+}
+
+.logo{
+    padding: 30px;
+    justify-content: space-between;
+    height: 200px;
+    width: 200px;
+}
+
+.logo-conocimientos1{
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+}
+.logo-conocimientos2{
+  padding: 30px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+/*  FOOTER */
+
+.derechos-reservados{
+    text-align: center;
+}
+
+.logo-footer-padre{
+    display: flex;
+    justify-content: center;
+}
+.logo-footer{
+    height: 35px;
+    width: 35px;
+}
